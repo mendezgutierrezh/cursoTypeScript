@@ -123,4 +123,20 @@ const arr: Persona[] = [];
 const fn = () => {}; //=> funcion con retorno void, no esta devolviendo nada
 function fun1() {}
 
-//====> 
+const fn1: (a: number) => string = (edad: number) => {
+  if (edad > 17) return "puedes Ingresar";
+  return "no pudes pasar";
+};
+
+function validaEdad(edad: number): string {
+  if (edad < 17) return "puedes pasar";
+  return " no puedes pasar";
+}
+
+validaEdad(18);
+
+//=====> Never
+/* Este tipo de funciones se utilizan para lanzar exepciones */
+function ErrorUsuario(): never {
+  throw new Error("Error de usuario");
+}
