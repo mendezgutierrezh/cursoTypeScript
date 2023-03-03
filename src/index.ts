@@ -122,3 +122,5 @@ const arr: Persona[] = [];
 
 const fn = () => {}; //=> funcion con retorno void, no esta devolviendo nada
 function fun1() {}
+
+//====> 
