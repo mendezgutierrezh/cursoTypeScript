@@ -140,3 +140,5 @@ validaEdad(18);
 function ErrorUsuario(): never {
   throw new Error("Error de usuario");
 }
+
+//======> Nuevo video
